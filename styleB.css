@@ -1,0 +1,18 @@
+/* Overriding container settings for a focused cv layout */
+.main-container {
+    max-width: 850px;
+}
+
+/* Subtle styling tweaks for the customized quote layout */
+.custom-quote {
+    background-color: #f8f9fa !important;
+}
+
+/* Maintain a consistent spacing for global bullet adjustments */
+main ul {
+    padding-left: 1.25rem;
+}
+
+main ul li {
+    margin-bottom: 0.35rem;
+}

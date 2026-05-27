@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Vision & Deep Learning Engineer | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        /* Overriding container settings for a focused CV layout */
+        .main-container {
+            max-width: 850px;
+        }
+
+        /* Subtle styling tweaks for the customized quote layout */
+        .custom-quote {
+            background-color: #f8f9fa !important;
+        }
+
+        /* Maintain a consistent spacing for global bullet adjustments */
+        main ul {
+            padding-left: 1.25rem;
+        }
+
+        main ul li {
+            margin-bottom: 0.35rem;
+        }
+
+        /* Custom lift animation for the floating action button (Option 2) */
+        .style-chat-fab {
+            transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        }
+        .style-chat-fab:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-light py-5">
+
+    <div class="container bg-white p-4 p-md-5 shadow-sm rounded main-container">
+        
+        <header class="border-bottom border-primary border-3 pb-4 mb-4">
+            <h1 class="text-primary display-5 fw-bold">[Your Name]</h1>
+            <p class="lead text-secondary mb-3">Computer Vision & Deep Learning Engineer</p>
+            <div class="d-flex flex-wrap gap-3 fw-semibold">
+                <a href="#" class="text-decoration-none link-primary">GitHub</a>
+                <a href="#" class="text-decoration-none link-primary">LinkedIn</a>
+                <a href="#" class="text-decoration-none link-primary">Google Scholar</a>
+                <a href="#" class="text-decoration-none link-primary">Portfolio</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="p-4 mb-5 bg-light border-start border-primary border-4 rounded-end custom-quote">
+                <h5 class="fw-bold">Professional Overview</h5>
+                <p class="mb-0 text-muted fst-italic">
+                    Computer Vision Engineer specialized in developing scalable deep learning architectures for spatial, temporal, and image data. Experienced in deploying real-time object detection, segmentation, and sequence-modeling pipelines from research to production, with a focus on high-stakes domains like healthcare and autonomous systems.
+                </p>
+            </div>
+
+            <section id="tech-stack" class="mb-5">
+                <h2 class="text-primary border-bottom pb-2 mb-3">🛠️ Technical Stack</h2>
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th scope="col" class="w-25">Category</th>
+                                <th scope="col">Technologies & Tools</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Frameworks</th>
+                                <td>PyTorch, TensorFlow, Keras, OpenCV, Hugging Face</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Architectures</th>
+                                <td>CNNs, Vision Transformers (ViTs), YOLO, UNet, GANs</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Languages</th>
+                                <td>Python, C++, SQL, Bash</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Cloud & MLOps</th>
+                                <td>AWS (EC2, S3, SageMaker), Docker, MLflow, Git</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Deployment</th>
+                                <td>TensorRT, ONNX, Streamlit, FastAPI</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="projects" class="mb-5">
+                <h2 class="text-primary border-bottom pb-2 mb-4">🚀 Key Projects</h2>
+                
+                <div class="project-item mb-4">
+                    <h4 class="text-dark fw-semibold">1. Real-Time Medical Image Segmentation Pipeline</h4>
+                    <p class="mb-1"><strong>Objective:</strong> Developed an automated pipeline to segment anomalies in high-resolution clinical scans.</p>
+                    <p class="mb-2"><strong>Stack:</strong> <span class="badge bg-secondary-subtle text-secondary-emphasis">PyTorch</span> <span class="badge bg-secondary-subtle text-secondary-emphasis">UNet++</span> <span class="badge bg-secondary-subtle text-secondary-emphasis">OpenCV</span> <span class="badge bg-secondary-subtle text-secondary-emphasis">Docker</span> <span class="badge bg-secondary-subtle text-secondary-emphasis">AWS</span></p>
+                    <ul class="text-muted">
+                        <li>Engineered a custom data-loading strategy that optimized spatial resolution while reducing GPU memory consumption by 30%.</li>
+                        <li>Implemented Grad-CAM to visualize feature attribution, improving model interpretability for clinical evaluators.</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <h4 class="text-dark fw-semibold">2. Temporal Sequence Modeling for Video Analytics</h4>
+                    <p class="mb-1"><strong>Objective:</strong> Built an end-to-end tracking system to monitor movement patterns over time without data leakage.</p>
+                    <p class="mb-2"><strong>Stack:</strong> <span class="badge bg-secondary-subtle text-secondary-emphasis">TensorFlow</span> <span class="badge bg-secondary-subtle text-secondary-emphasis">YOLOv8</span> <span class="badge bg-secondary-subtle text-secondary-emphasis">ByteTRACK</span> <span class="badge bg-secondary-subtle text-secondary-emphasis">Python</span></p>
+                    <ul class="text-muted">
+                        <li>Integrated a multi-object tracking algorithm that preserved temporal sequences across variable frame rates.</li>
+                        <li>Deployed the final model via an optimized ONNX runtime, achieving sub-25ms latency per frame.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="experience" class="mb-5">
+                <h2 class="text-primary border-bottom pb-2 mb-4">💼 Professional Experience</h2>
+                
+                <div class="job-item mb-4">
+                    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-baseline">
+                        <h4 class="text-dark fw-semibold mb-1">Senior AI & Computer Vision Engineer</h4>
+                        <span class="text-muted fst-italic">2024 – Present</span>
+                    </div>
+                    <p class="text-secondary fw-medium mb-2">Center of Excellence in Analytics</p>
+                    <ul class="text-muted">
+                        <li>Lead the technical design and architecture of vision-based AI systems across multi-disciplinary teams.</li>
+                        <li>Transitioned legacy image processing codebases to modern deep learning frameworks, reducing inference latency by 40%.</li>
+                        <li>Mentor junior developers and research students on implementing robust validation strategies for spatial data.</li>
+                    </ul>
+                </div>
+
+                <div class="job-item">
+                    <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-baseline">
+                        <h4 class="text-dark fw-semibold mb-1">Machine Learning Engineer</h4>
+                        <span class="text-muted fst-italic">2022 – 2024</span>
+                    </div>
+                    <p class="text-secondary fw-medium mb-2">Tech Solutions Corp</p>
+                    <ul class="text-muted">
+                        <li>Developed and deployed edge-AI computer vision models for automated quality inspection.</li>
+                        <li>Built containerized microservices using FastAPI and Docker to serve model predictions to web applications.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education" class="mb-5">
+                <h2 class="text-primary border-bottom pb-2 mb-3">🎓 Education</h2>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-transparent px-0 text-muted"><strong>Ph.D. in Engineering (Candidate)</strong> – Focus on Deep Learning and Representation Learning</li>
+                    <li class="list-group-item bg-transparent px-0 text-muted"><strong>M.Sc. in Systems Engineering</strong> – Specialization in Artificial Intelligence</li>
+                </ul>
+            </section>
+
+            <section id="publications" class="mb-5">
+                <h2 class="text-primary border-bottom pb-2 mb-3">📝 Recent Publications</h2>
+                <ul class="text-muted">
+                    <li class="mb-2"><strong>[Author Name]</strong>, Co-author. (2025). <em class="text-dark">"Temporal Sequence Preservation in Deep Representation Learning for Clinical Data."</em> Journal of Biomedical Informatics.</li>
+                    <li><strong>[Author Name]</strong>, Co-author. (2024). <em class="text-dark">"Evaluating Explainability and Feature Attribution in High-Stakes Vision Models."</em> IEEE International Conference on Machine Learning and Applications.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="text-center text-muted border-top pt-4 mt-5 small">
+            <p>&copy; 2026 [Your Name]. Built with Bootstrap 5 & Semantic HTML.</p>
+        </footer>
+    </div>
+
+    <div class="position-fixed bottom-0 end-0 m-4 z-3">
+        <a href="https://wa.me/yournumber" target="_blank" class="btn btn-primary btn-lg rounded-circle d-flex align-items-center justify-content-center shadow-lg style-chat-fab" style="width: 60px; height: 60px;" title="Chat with me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-chat-text-fill" viewBox="0 0 16 16">
+                <path d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z"/>
+            </svg>
+        </a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
